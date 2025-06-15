@@ -11,3 +11,11 @@ console.log(product);
 console.log(product["title"]);
 // c2: goi giong function on hon nhieu
 console.log(product.title);
+
+// Them phan tu moi
+product.price = 100000;
+console.log(product.price);
+
+// Xoa phan tu
+delete product.rating;
+
